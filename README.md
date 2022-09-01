@@ -1,6 +1,7 @@
 # Where-is-France
 An app that points you in the direction of France.
 This was made in collaboration with Corey Briscoe and Blythe Hammett
+![Simulator Screen Shot - iPhone SE (2nd generation) - 2022-09-01 at 12 58 50](https://user-images.githubusercontent.com/112192138/187971465-59e69ab4-329b-4f9b-9857-517d1c7e0f6b.png)
 
 ![Simulator Screen Shot - iPhone SE (2nd generation) - 2022-09-01 at 12 52 40](https://user-images.githubusercontent.com/112192138/187969670-ddfc9fa9-9352-4b2f-9543-c0b1a3ec6156.png)
 
