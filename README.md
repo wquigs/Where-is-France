@@ -1,7 +1,8 @@
 # Where-is-France
 An app that points you in the direction of France.
 
-![image](https://user-images.githubusercontent.com/112192138/187969481-dde5aa38-f0d2-48d7-be35-6962af98c072.png)
+![Simulator Screen Shot - iPhone SE (2nd generation) - 2022-09-01 at 12 52 40](https://user-images.githubusercontent.com/112192138/187969670-ddfc9fa9-9352-4b2f-9543-c0b1a3ec6156.png)
+
 
 The map view screen is used for displaying the user's distance from France, along with the direction towards France. The user can interact with this view by tapping anywhere on the map view. That will cause the arrow to spin around and ultimately land in the direction of France.
 
