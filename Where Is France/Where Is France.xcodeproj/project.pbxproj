@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E10240928124DA30062402A /* ColorChangerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10240828124DA30062402A /* ColorChangerViewController.swift */; };
+		4E503333280B361F002471D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E503332280B361F002471D2 /* AppDelegate.swift */; };
+		4E503335280B361F002471D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E503334280B361F002471D2 /* SceneDelegate.swift */; };
+		4E503337280B361F002471D2 /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E503336280B361F002471D2 /* ViewControllerMap.swift */; };
+		4E50333A280B361F002471D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E503338280B361F002471D2 /* Main.storyboard */; };
+		4E50333D280B361F002471D2 /* Where_Is_France.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E50333B280B361F002471D2 /* Where_Is_France.xcdatamodeld */; };
+		4E50333F280B361F002471D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E50333E280B361F002471D2 /* Assets.xcassets */; };
+		4E503342280B361F002471D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E503340280B361F002471D2 /* LaunchScreen.storyboard */; };
+		4E50334A280B43B8002471D2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E503349280B43B8002471D2 /* Model.swift */; };
+		4E50334E280B457B002471D2 /* ClosestToFranceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E50334D280B457B002471D2 /* ClosestToFranceTableViewController.swift */; };
+		4E503350280B46F2002471D2 /* ClosestToFranceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E50334F280B46F2002471D2 /* ClosestToFranceTableViewCell.swift */; };
+		92EBDCAC2815BE0E001F5B5D /* ArrowSKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EBDCAB2815BE0E001F5B5D /* ArrowSKScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E10240828124DA30062402A /* ColorChangerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangerViewController.swift; sourceTree = "<group>"; };
+		4E50332F280B361F002471D2 /* Where Is France.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where Is France.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E503332280B361F002471D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E503334280B361F002471D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E503336280B361F002471D2 /* ViewControllerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
+		4E503339280B361F002471D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E50333C280B361F002471D2 /* Where_Is_France.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Where_Is_France.xcdatamodel; sourceTree = "<group>"; };
+		4E50333E280B361F002471D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E503341280B361F002471D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E503343280B361F002471D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E503349280B43B8002471D2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4E50334D280B457B002471D2 /* ClosestToFranceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestToFranceTableViewController.swift; sourceTree = "<group>"; };
+		4E50334F280B46F2002471D2 /* ClosestToFranceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosestToFranceTableViewCell.swift; sourceTree = "<group>"; };
+		92EBDCAB2815BE0E001F5B5D /* ArrowSKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowSKScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E50332C280B361F002471D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E503326280B361F002471D2 = {
+			isa = PBXGroup;
+			children = (
+				4E503331280B361F002471D2 /* Where Is France */,
+				4E503330280B361F002471D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E503330280B361F002471D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E50332F280B361F002471D2 /* Where Is France.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E503331280B361F002471D2 /* Where Is France */ = {
+			isa = PBXGroup;
+			children = (
+				4E503332280B361F002471D2 /* AppDelegate.swift */,
+				4E503349280B43B8002471D2 /* Model.swift */,
+				4E503334280B361F002471D2 /* SceneDelegate.swift */,
+				4E503336280B361F002471D2 /* ViewControllerMap.swift */,
+				92EBDCAB2815BE0E001F5B5D /* ArrowSKScene.swift */,
+				4E50334F280B46F2002471D2 /* ClosestToFranceTableViewCell.swift */,
+				4E50334D280B457B002471D2 /* ClosestToFranceTableViewController.swift */,
+				4E503338280B361F002471D2 /* Main.storyboard */,
+				4E50333E280B361F002471D2 /* Assets.xcassets */,
+				4E503340280B361F002471D2 /* LaunchScreen.storyboard */,
+				4E503343280B361F002471D2 /* Info.plist */,
+				4E50333B280B361F002471D2 /* Where_Is_France.xcdatamodeld */,
+				4E10240828124DA30062402A /* ColorChangerViewController.swift */,
+			);
+			path = "Where Is France";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E50332E280B361F002471D2 /* Where Is France */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E503346280B361F002471D2 /* Build configuration list for PBXNativeTarget "Where Is France" */;
+			buildPhases = (
+				4E50332B280B361F002471D2 /* Sources */,
+				4E50332C280B361F002471D2 /* Frameworks */,
+				4E50332D280B361F002471D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Where Is France";
+			productName = "Where Is France";
+			productReference = 4E50332F280B361F002471D2 /* Where Is France.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E503327280B361F002471D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4E50332E280B361F002471D2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E50332A280B361F002471D2 /* Build configuration list for PBXProject "Where Is France" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E503326280B361F002471D2;
+			productRefGroup = 4E503330280B361F002471D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E50332E280B361F002471D2 /* Where Is France */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E50332D280B361F002471D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E503342280B361F002471D2 /* LaunchScreen.storyboard in Resources */,
+				4E50333F280B361F002471D2 /* Assets.xcassets in Resources */,
+				4E50333A280B361F002471D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E50332B280B361F002471D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E50334A280B43B8002471D2 /* Model.swift in Sources */,
+				4E50333D280B361F002471D2 /* Where_Is_France.xcdatamodeld in Sources */,
+				4E10240928124DA30062402A /* ColorChangerViewController.swift in Sources */,
+				4E503337280B361F002471D2 /* ViewControllerMap.swift in Sources */,
+				4E503350280B46F2002471D2 /* ClosestToFranceTableViewCell.swift in Sources */,
+				4E503333280B361F002471D2 /* AppDelegate.swift in Sources */,
+				4E503335280B361F002471D2 /* SceneDelegate.swift in Sources */,
+				4E50334E280B457B002471D2 /* ClosestToFranceTableViewController.swift in Sources */,
+				92EBDCAC2815BE0E001F5B5D /* ArrowSKScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E503338280B361F002471D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E503339280B361F002471D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E503340280B361F002471D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E503341280B361F002471D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E503344280B361F002471D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E503345280B361F002471D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E503347280B361F002471D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GB2KCM49PM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Where Is France/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "please allow us to use your location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.c323-corbrisc.Where-Is-France";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E503348280B361F002471D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GB2KCM49PM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Where Is France/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "please allow us to use your location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.c323-corbrisc.Where-Is-France";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E50332A280B361F002471D2 /* Build configuration list for PBXProject "Where Is France" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E503344280B361F002471D2 /* Debug */,
+				4E503345280B361F002471D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E503346280B361F002471D2 /* Build configuration list for PBXNativeTarget "Where Is France" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E503347280B361F002471D2 /* Debug */,
+				4E503348280B361F002471D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E50333B280B361F002471D2 /* Where_Is_France.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E50333C280B361F002471D2 /* Where_Is_France.xcdatamodel */,
+			);
+			currentVersion = 4E50333C280B361F002471D2 /* Where_Is_France.xcdatamodel */;
+			path = Where_Is_France.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E503327280B361F002471D2 /* Project object */;
+}
